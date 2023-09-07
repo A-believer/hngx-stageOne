@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 28px;
+    background-color: black;
+    color: white;
+    margin: 20px 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 50px 0;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+div p {
+    color: pink
+}
+h3 {
+    margin: 20px 0;
+}
+
+a {
+    text-underline-offset: 4px;
+    font-size: 28px;
+    color: pink
+}
+
+a:visited {
+    color: grey;
+    text-decoration: underline;
+}
